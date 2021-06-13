@@ -27,7 +27,7 @@ function File({file, level})
 
     return (
         <React.Fragment>
-            <div className="File" style={{margin: "calc(" +level + "*10px)"}}>
+            <div className="File" style={{margin: "calc(" +level + "*25px)"}}>
                 {file.fileType==="File"?
                 <FileIcon style={{marginLeft: expandHandlerSize, color: "#EAB543"}} />
                 :
