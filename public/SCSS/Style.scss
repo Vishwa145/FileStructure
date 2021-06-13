@@ -1,0 +1,50 @@
+$White-color: #ffffff;
+$Solitude-color: #f1f2f6;
+
+@mixin FlexDisply($flow, $justify, $align) {
+    display: flex;
+    flex-flow: $flow;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+*{
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.App{
+    @include FlexDisply(column, null, center);
+    background-color: $Solitude-color;
+}
+
+.Nav{
+    height: 10%;
+    width: 95%;
+    padding: 0px 2.5%;
+    display: flex;
+    box-shadow: 0px 1px 3px #bdc3c7;
+    background-color: $White-color;
+}
+
+.Container{
+    @include FlexDisply(column, null, null);
+    padding: 35px;
+    height: 85%;
+    width: 400px;
+    border-radius: 20px;
+    background-color: $White-color;
+    overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.File{
+    @include FlexDisply(row, null, center);
+    font-size: xx-large;
+}

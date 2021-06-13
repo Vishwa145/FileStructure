@@ -1,0 +1,30 @@
+const fileSystemData = [
+    {fileName: "File1", fileType:"File"},
+    {fileName: "Folder1", fileType:"Folder", childern:[{fileName: "File1", fileType:"File"},
+    {fileName: "File2", fileType:"File"}, {fileName: "File3", fileType:"File"}, {fileName: "Folder1", fileType:"Folder", childern:[{fileName: "File1", fileType:"File"},
+    {fileName: "File2", fileType:"File"}, {fileName: "File3", fileType:"File"}]}]},
+    {fileName: "File2", fileType:"File"},
+    {fileName: "Foler2", fileType:"Folder", childern:[{fileName: "File1", fileType:"File"},
+    {fileName: "File2", fileType:"File"}, {fileName: "File3", fileType:"File"}]},
+    {fileName: "File3", fileType:"File"},
+    {fileName: "Folder3", fileType:"Folder", childern:[{fileName: "File1", fileType:"File"},
+    {fileName: "File2", fileType:"File"}, {fileName: "File3", fileType:"File"}]},
+    {fileName: "File4", fileType:"File"},
+    {fileName: "Foler4", fileType:"Folder", childern:[{fileName: "File1", fileType:"File"},
+    {fileName: "File2", fileType:"File"}, {fileName: "File3", fileType:"File"}]},
+    {fileName: "File1", fileType:"File"},
+    {fileName: "Folder1", fileType:"Folder", childern:[{fileName: "File1", fileType:"File"},
+    {fileName: "File2", fileType:"File"}, {fileName: "File3", fileType:"File"}, {fileName: "Folder1", fileType:"Folder", childern:[{fileName: "File1", fileType:"File"},
+    {fileName: "File2", fileType:"File"}, {fileName: "File3", fileType:"File"}]}]},
+    {fileName: "File2", fileType:"File"},
+    {fileName: "Foler2", fileType:"Folder", childern:[{fileName: "File1", fileType:"File"},
+    {fileName: "File2", fileType:"File"}, {fileName: "File3", fileType:"File"}]},
+    {fileName: "File3", fileType:"File"},
+    {fileName: "Folder3", fileType:"Folder", childern:[{fileName: "File1", fileType:"File"},
+    {fileName: "File2", fileType:"File"}, {fileName: "File3", fileType:"File"}]},
+    {fileName: "File4", fileType:"File"},
+    {fileName: "Foler4", fileType:"Folder", childern:[{fileName: "File1", fileType:"File"},
+    {fileName: "File2", fileType:"File"}, {fileName: "File3", fileType:"File"}]}
+];
+
+export default fileSystemData;

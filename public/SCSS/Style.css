@@ -1,0 +1,44 @@
+* {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #f1f2f6;
+}
+
+.Nav {
+  height: 10%;
+  width: 95%;
+  padding: 0px 2.5%;
+  display: flex;
+  box-shadow: 0px 1px 3px #bdc3c7;
+  background-color: #ffffff;
+}
+
+.Container {
+  display: flex;
+  flex-flow: column;
+  padding: 35px;
+  height: 85%;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  overflow: scroll;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.Container::-webkit-scrollbar {
+  display: none;
+}
+
+.File {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  font-size: xx-large;
+}/*# sourceMappingURL=Style.css.map */
