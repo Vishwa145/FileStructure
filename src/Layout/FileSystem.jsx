@@ -7,7 +7,7 @@ function FileSystem()
     return (
         <div className = "Container">
         {
-            fileSystemData.map((file)=><File file={file} level={0}/>)
+            fileSystemData.map((file, key)=><File key={key} file={file} level={0}/>)
         }
         </div>
     );
