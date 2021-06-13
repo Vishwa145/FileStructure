@@ -39,7 +39,7 @@ function File({file, level})
             </div>
             {file.fileType==="Folder"?
             <div style={{display: display}}>
-                {file.childern.map((file)=><File file={file} level={level+1}/>)}
+                {file.childern.map((file, key)=><File key={key} file={file} level={level+1}/>)}
             </div>
             :null}
         </React.Fragment>
